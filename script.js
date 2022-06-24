@@ -2,7 +2,7 @@ $(document).ready(function () {
 
     //Current Date Header
     $("#cityHeader").empty();
-    let currentDate = dayjs().format("D MMM, YYYY");
+    let currentDate = dayjs().format("D MMM YYYY");
     document.getElementById("cityHeader").text = currentDate;
     $("#cityHeader").append(currentDate);
     
